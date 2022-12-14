@@ -1,0 +1,59 @@
+.main-app-container {
+    .main-app {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 720px;
+            height: 534px;
+        }
+    }
+    .main-txt-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            width: 734px;
+            height: 114px;
+            color: #ffffff;
+            font-family: RalewayBold;
+            font-size: 40px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 60px;
+            text-align: center;
+        }
+    }
+    .p-txt-2 {
+        display: flex;
+        
+        justify-content: center;
+        p {
+            width: 589px;
+            height: 88px;
+            color: #ffffff;
+            font-family: RalewayBold;
+            font-size: 20px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+            text-align: center;
+            max-width: 123ch;
+        }
+    }
+    .Get-Started-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+            width: 280px;
+            height: 56px;
+            box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+            border-radius: 28px;
+            background-image: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+        }
+    }
+}
